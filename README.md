@@ -13,8 +13,7 @@ This performs evaluation of machine learning models with ease and provides the v
   # Evaluation of Random Forest Classifier
   iters = list(range(10,200,10))  # this can be tweaked individually, depending upon the model chosen
   
-  model, x, scores, precisions, recalls, f1_scores = evaluate.randomForestClassifer(iters)
-  
+  model, x, scores, precisions, recalls, f1_scores = evaluate.randomForestClassifer(iters)\n  
   evaluate.getClassifiersAccuracy(model, x, scores, precisions, recalls, f1_scores) 
   
   # Evaluation of KNN Classifier
