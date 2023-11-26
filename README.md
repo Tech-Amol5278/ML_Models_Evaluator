@@ -11,14 +11,12 @@ This performs evaluation of machine learning models with ease and provides the v
   evaluate=mlm.evaluator(x_train, y_train, x_test, y_test)
 
   # Evaluation of Random Forest Classifier
-  iters = list(range(10,200,10))  # this can be tweaked individually, depending upon the model chosen
-  
-  model, x, scores, precisions, recalls, f1_scores = evaluate.randomForestClassifer(iters)\n  
+  iters = list(range(10,200,10))  # this can be tweaked individually, depending upon the model chosen \n  
+  model, x, scores, precisions, recalls, f1_scores = evaluate.randomForestClassifer(iters) \n  
   evaluate.getClassifiersAccuracy(model, x, scores, precisions, recalls, f1_scores) 
   
   # Evaluation of KNN Classifier
-  iters = list(range(1,50))  # this can be tweaked individually, depending upon the model chosen
-  
+  iters = list(range(1,50))  # this can be tweaked individually, depending upon the model chosen\n
   model, x, scores, precisions, recalls, f1_scores = evaluate.knnClassifier(iters)
   evaluate.getClassifiersAccuracy(model, x, scores, precisions, recalls, f1_scores)
 
