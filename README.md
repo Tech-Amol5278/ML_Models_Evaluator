@@ -20,7 +20,7 @@ This performs of evaluation of machine learning models with ease and provides th
   model, x, scores, precisions, recalls, f1_scores = evaluate.knnClassifier(iters)
   evaluate.getClassifiersAccuracy(model, x, scores, precisions, recalls, f1_scores)
 
-# Evaluation 
+# Check for visualizations 
 Check for the directory as below, we can find different graphs stored according to models.
   1. ..reports\ml_stats\
 
