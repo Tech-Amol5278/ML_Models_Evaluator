@@ -6,8 +6,10 @@ This performs evaluation of machine learning models with ease and provides the v
   2. Ensure to have the data splitted into X_train, y_train, X_test, y_test
 
 # Application 
+
+  # Import packages/libraries
   from lib import ml_models as mlm
-  # create an instance 
+  # Create an instance 
   evaluate=mlm.evaluator(x_train, y_train, x_test, y_test)
 
   # Evaluation of Random Forest Classifier
