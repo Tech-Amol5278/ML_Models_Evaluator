@@ -16,7 +16,7 @@ This performs evaluation of machine learning models with ease and provides the v
   evaluate.getClassifiersAccuracy(model, x, scores, precisions, recalls, f1_scores) 
   
   # Evaluation of KNN Classifier
-  iters = list(range(1,50))  # this can be tweaked individually, depending upon the model chosen\n
+  iters = list(range(1,50))  # this can be tweaked individually, depending upon the model chosen  
   model, x, scores, precisions, recalls, f1_scores = evaluate.knnClassifier(iters)
   evaluate.getClassifiersAccuracy(model, x, scores, precisions, recalls, f1_scores)
 
