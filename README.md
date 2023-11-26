@@ -10,7 +10,7 @@ This performs evaluation of machine learning models with ease and provides the v
   # Import packages/libraries
   from lib import ml_models as mlm
   # Create an instance 
-  evaluate=mlm.evaluator(x_train, y_train, x_test, y_test)
+  evaluate=mlm.evaluator(X_train, y_train, X_test, y_test)
 
   # Evaluation of Random Forest Classifier
   iters = list(range(10,200,10))  # this can be tweaked individually, depending upon the model chosen  
