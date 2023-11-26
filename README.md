@@ -1,5 +1,5 @@
 # ML_Models_Evaluator
-This performs of evaluation of machine learning models with ease and provides the visualization. Automatically creates the directory as Reports\model\ and records the evaluatuation graphs 
+This performs evaluation of machine learning models with ease and provides the visualization
 
 # Pre-requisites 
   1. Libraries matplotlib, numpy and pandas
