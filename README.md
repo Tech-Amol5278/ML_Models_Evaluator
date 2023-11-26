@@ -7,7 +7,7 @@ This performs of evaluation of machine learning models with ease and provides th
 
 # Application 
   from lib import ml_models as mlm
-  # create and instance 
+  # create an instance 
   evaluate=mlm.evaluator(x_train, y_train, x_test, y_test)
 
   # Evaluation of Random Forest Classifier
